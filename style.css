@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: 99999px;
+}
+
+@font-face {
+  font-family: 'DroidKufi-Regular';
+  src: url('https://www.fontstatic.com/fonts/DroidKufi-Regular/DroidKufi-Regular.eot?#iefix');
+  src: local('درويد كوفي'), local('DroidKufi-Regular'),
+    url('https://www.fontstatic.com/fonts/DroidKufi-Regular/DroidKufi-Regular.woff')
+      format('woff');
+}
+
+*,
+body {
+  font-family: 'DroidKufi-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', ' Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji' !important;
+}
+
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  padding: 50px 15px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+img.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px #0001;
+  box-shadow: 0 2px 3px #0001;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.card a {
+    color: #000;
+    /* font-weight: bold; */
+    /* text-decoration: none; */
+    /* border-bottom: 1px dashed #000; */
+}
+
+/* .card a:hover {
+    font-weight: bold;
+    border-bottom-style: solid;
+} */
+
+a.super-link {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    width: auto;
+    max-width: 220px;
+    justify-content: center;
+    margin: 10px auto 0;
+    transition: max-width .4s ease;
+}
+
+a.super-link:hover {
+    max-width: 100%;
+}
+
+a.super-link span {
+    display: inline-block;
+    margin-right: 5px;
+}
